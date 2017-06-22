@@ -1,0 +1,123 @@
+
+@font-face{
+	font-family: "LatoB";
+	src: url('../fonts/Lato-Bold.ttf');
+}
+@font-face{
+	font-family: "LatoC";
+	src: url('../fonts/Lato-Italic.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.imagem{
+	height: 475px;
+	width: 650px;
+	border: 15px solid #ccc;
+	box-shadow: 5px 5px 40px 5px #000;
+	margin-left: 25%;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+.imagem:hover{
+	cursor:pointer;
+	opacity: 0.8;
+}
+.logo{
+	width: 250px;
+	height: 100px;
+	margin-left: 38%;
+	margin-top: 18px;
+}
+.logo:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}
+h2{
+	height: 60px;
+	width: 390px;
+	border: 3px solid #fff;
+	margin-left: 33%;
+	background: rgba(0,0,0,0.8);
+	opacity: 1;
+	text-align: center;
+	padding: 8px;
+	color: #FF0000;
+	border-bottom-left-radius: 45px;
+	border-top-right-radius: 45px;	
+}
+h2:hover{
+	cursor: pointer;
+	color: #fff;
+}
+h3{
+	height: 26px;
+	width: 390px;
+	border: 3px solid #ccc;
+	margin-left: 34%;
+	background: rgba(0,0,0,0.8);
+	opacity: 1;
+	text-align: center;
+	padding: 8px;
+	color: #FF0000;
+	border-bottom-left-radius: 45px;
+	border-top-right-radius: 45px;
+}
+h3:hover{
+	cursor: pointer;
+	color: #fff;
+}
+h4{
+	text-align: center;
+	margin-top: 3%;
+	color: #FF0000;
+	height: 40px;
+	width: 1000px;
+	border: 3px solid #fff;
+	margin-left: 17%;
+	background: rgba(0,0,0,0.8);
+	opacity: 1;
+	padding: 8px;
+	color: #FF0000;
+	border-bottom-left-radius: 45px;
+	border-top-right-radius: 45px;	
+}
+h4:hover{
+	cursor: pointer;
+	color: #fff;
+}
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	margin-left: -8%;
+	margin-top: 2%;
+	color: #fff;
+}
+h1:hover{
+	cursor: pointer;
+	color: #ccc;
+}
+body{
+	background: url(../img/15.jpg); center center fixed;
+	background-size:cover;
+}
+video{
+	position: fixed;
+	width:auto;
+	height:auto;
+	background-size: cover;
+	z-index: -1000;
+	right:  0;
+	bottom:0;
+	min-height: 100%;
+	min-width: 100%;
+}
+audio{
+	margin-left: 36%;
+	margin-top: 2%;
+}
